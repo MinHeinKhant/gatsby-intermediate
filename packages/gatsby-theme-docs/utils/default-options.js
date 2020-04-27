@@ -1,5 +1,5 @@
 module.exports = ({
-  path = './',
+  basePath = './',
   contentPath = 'docs',
   useExternalMdx = false,
-}) => ({ path, contentPath, useExternalMdx });
+}) => ({ basePath, contentPath, useExternalMdx });
